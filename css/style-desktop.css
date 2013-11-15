@@ -63,12 +63,12 @@
 #logo h1 a {
 	float: left;
 	text-decoration: none;
-	text-shadow: 1px 1px 0px #38800E;
+	text-shadow: 15px 25px 50px #350852;
 	text-transform: lowercase;
 	font-family: 'Lobster', cursive;
 	font-size: 54pt;
 	font-weight: 200;
-	color: #FFFFFF;
+	color: #FFFFFF;	
 }
 
 #logo p {
