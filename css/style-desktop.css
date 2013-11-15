@@ -18,6 +18,12 @@
 	background: url(images/header-bg.jpg) no-repeat center top
 }
 
+#badge {
+	position: absolute;
+	top: 90px;
+	right: 90px;
+	width: 100px;
+}
 .homepage #header-wrapper2 {
 }
 
