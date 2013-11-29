@@ -26,6 +26,9 @@ h2 {
 	font-size: 2.2em;
 	color: #171717;
 }
+h1 {clear: both;
+	font-size: 40px;
+	color: #171717;}
 
 p, ol {
 	line-height: 200%;
@@ -146,26 +149,26 @@ strong {
 	font-size: 12pt;
 	color: #FFFFFF;
 }
-.galleria {
-  width: 1250px; # el ancho nos limitara el numero de imagenes por fila. 
-  margin: auto; # esto es para centrar todas las imagenes
+.galeria {
+  width: 1250px; /*# el ancho nos limitara el numero de imagenes por fila.*/ 
+  margin: auto; /*# esto es para centrar todas las imagenes*/
+  clear: both;
 }
  
 .item {
   float: left;
-  width: 150px;
-  height: 350px;
-  margin-bottom:30px; #separación con las filas inferiores
-  overflow: hidden; Para que la imagen no se salga
-  margin-right: 30px; # Separacion por la derecha
+  width: 300px;
+  height: 550px;
+  margin-bottom:30px; /*#separación con las filas inferiores*/
+  overflow: hidden; /*#Para que la imagen no se salga*/
+  margin-right: 30px; /*# Separacion por la derecha*/
 }
  
 .item img {
-  width:300px; # Tiene que ser como el ancho de .item
-  display:block; # Esto es para que el texto aparezca debajo
+  width:300px; /*# Tiene que ser como el ancho de .item*/
+  display:block; /*# Esto es para que el texto aparezca debajo*/
+
 }
-
-
 
 
 
